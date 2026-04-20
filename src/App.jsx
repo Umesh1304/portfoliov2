@@ -67,7 +67,7 @@ export default function App() {
             <div className="flex items-center gap-4">
               <span>BUILD: PRODUCTION</span>
               <span className="text-blood/30">|</span>
-              <span>REALM: MIDGARD</span>
+              <span>REALM: Nilgiris</span>
               <span className="text-blood/30">|</span>
               <span className="text-blood/50">UMESH KUMAR © 2026</span>
             </div>

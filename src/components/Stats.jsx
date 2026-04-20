@@ -11,7 +11,7 @@ const stats = [
     desc: 'Years forging enterprise systems in production environments',
   },
   {
-    value: '20+',
+    value: '10+',
     label: 'PROJECTS',
     sub: 'COMPLETED',
     icon: '🔱',
@@ -42,7 +42,6 @@ function StatCard({ stat, index }) {
         borderColor: 'rgba(255,32,32,0.9)',
       }}
       className="relative glass-card glow-border rounded-sm p-6 md:p-8 flex flex-col items-center text-center group cursor-default overflow-hidden"
-      transition={{ duration: 0.25 }}
     >
       {/* Background grid effect */}
       <div className="absolute inset-0 grid-bg opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
