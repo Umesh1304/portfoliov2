@@ -4,7 +4,7 @@ export default function BootScreen({ onFinish }) {
   const [lines, setLines] = useState([])
 
   const bootLines = [
-    "Initializing WARRIOR.EXE...",
+    "Initializing Tech Support and Dev...",
     "Loading core modules...",
     "Establishing secure connection...",
     "Injecting cyber protocols...",

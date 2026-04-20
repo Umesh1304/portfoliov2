@@ -2,7 +2,7 @@ import { motion, useInView } from 'framer-motion'
 import { useRef } from 'react'
 
 const ABOUT_TEXT =
-  'Battle-hardened Java engineer with 2+ years forging scalable backend systems, resolving critical production issues, and optimizing performance across enterprise platforms.'
+  'Battle-hardened Tech Support Engineer with 2+ years forging scalable backend systems, resolving critical production issues, and optimizing performance across enterprise platforms.'
 
 const highlights = [
   { label: 'DOMAIN', value: 'Tech Support' },
@@ -178,7 +178,7 @@ export default function About() {
           className="mt-6 flex items-center justify-between text-[10px] font-mono-custom text-ash/30 tracking-widest px-1"
         >
           <span>{'>'} END_OF_DOSSIER.TXT</span>
-          <span className="text-blood/40">CLASSIFIED: WARRIOR_GUILD_ONLY</span>
+          <span className="text-blood/40">CLASSIFIED: Tech Support Engineer</span>
         </motion.div>
       </motion.div>
     </section>

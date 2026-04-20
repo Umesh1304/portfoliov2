@@ -3,10 +3,10 @@ import { useState, useEffect } from 'react'
 import avatarImg from '../assets/avatar.jpeg'
 
 const TAGLINES = [
-  'Debugging reality. Building scalable solutions.',
-  'Forging enterprise systems in the fires of Java.',
-  'No bug survives. No system falls.',
-  'Backend warrior. Uptime guardian.',
+  'Resolving issues. Restoring systems. Ensuring uptime.',
+  'Frontline defender of production environments.',
+  'No ticket ignored. No outage unresolved.',
+  'Keeping systems alive — 24/7 vigilance.',
 ]
 
 function useTypingAnimation(lines, speed = 55, pause = 2200) {
@@ -143,7 +143,7 @@ export default function Hero() {
               <motion.div variants={itemVariants} className="flex items-center gap-2 justify-center md:justify-start">
                 <div className="h-px w-6 bg-blood" />
                 <span className="text-[10px] tracking-[0.3em] text-blood font-mono-custom uppercase">
-                  Profile: Active Warrior
+                  Profile: Active Dev
                 </span>
                 <div className="h-px w-6 bg-blood" />
               </motion.div>
@@ -205,7 +205,7 @@ export default function Hero() {
                 {[
                   { label: 'LOCATION', value: 'INDIA' },
                   { label: 'STATUS', value: 'AVAILABLE' },
-                  { label: 'FOCUS', value: 'BACKEND' },
+                  { label: 'FOCUS', value: 'BACKEND / TECH SUPPORT' },
                 ].map((item) => (
                   <div key={item.label} className="text-center md:text-left">
                     <div className="text-[9px] text-ash tracking-widest">{item.label}</div>
@@ -223,7 +223,7 @@ export default function Hero() {
           className="mt-4 flex items-center gap-2 text-[10px] font-mono-custom text-ash/40 tracking-widest"
         >
           <span className="text-blood/50">{'>'}</span>
-          <span>PROFILE_LOAD: 100% | THREAT_LEVEL: EXTREME | READY_FOR_COMBAT</span>
+          <span>PROFILE_LOAD: 100% | SYSTEM_STATUS: STABLE | READY_FOR_OPERATIONS</span>
         </motion.div>
       </motion.div>
     </section>
